@@ -85,7 +85,7 @@ module ActiveSupport
         item.save
       rescue ActiveRecord::RecordNotUnique
       ensure
-        free_some_space
+#         free_some_space
       end
 
       def debug_mode?
